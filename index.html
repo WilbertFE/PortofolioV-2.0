@@ -14,22 +14,48 @@
     <!-- Akhir Link CSS -->
 </head>
 <body>
+
+    <!-- Header Section Start -->
+    <header class="absolute top-0 left-0 w-full">
+        <div class="flex p-4">
+            <div class="w-full flex items-center">
+                <div class="w-6 h-6 mx-px bg-cover bg-center rounded-full" style="background-image: url(src/img/hero.png);"></div>
+                <h1 class="font-bold text-sm text-dark">wilbertbernardi</h1>
+            </div>
+            <div class="self-end">
+                <button class="h-[38px] flex flex-col justify-evenly">
+                    <span class="bg-dark block w-[30px] h-[2px]"></span>
+                    <span class="bg-dark block w-[30px] h-[2px]"></span>
+                    <span class="bg-dark block w-[30px] h-[2px]"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End-->
+
     <!--Hero Section Start-->
     <section id="hero" class="pt-36 pb-32">
         <div class="container">
             <div class="flex flex-wrap">
-                <div class="w-full">
-                    <h3 class="mb-1 text-sm text-sky-500">Halo 👋, Perkenalkan Nama Saya</h3>
-                    <h1 class="text-4xl text-slate-900 font-black">Wilbert Bernardi</h1>
+                <div class="w-full mb-10">
+                    <h3 class="mb-1 text-sm text-primary">Halo 👋, Perkenalkan Nama Saya</h3>
+                    <h1 class="text-4xl text-dark font-black">Wilbert Bernardi</h1>
                     <h2 class="mb-2 text-slate-300 font-bold">Web Developer | Student</h2>
-                    <!-- <p class="w-3/5 mb-2 text-xs">Website portofolio ini dibangun dengan</p> -->
-                    <div class="mb-4 flex justify-between w-1/2">
+                    <div class="mb-6 flex justify-between w-1/2">
                         <a href="#about" class="block w-8 h-8"><img src="src/img/html5-color.svg" alt="HTML5" title="HTML5" class="w-full h-full grayscale opacity-80 transition duration-300 hover:opacity-100 hover:grayscale-0" /></a>
                         <a href="#about" class="block w-8 h-8"><img src="src/img/css3-color.svg" alt="CSS3" title="CSS3" class="w-full h-full grayscale opacity-80 transition duration-300 hover:opacity-100 hover:grayscale-0" /></a>
                         <a href="#about" class="block w-8 h-8"><img src="src/img/javascript-color.svg" alt="Javascript" title="Javascript" class="w-full h-full grayscale transition duration-300 hover:opacity-100 hover:grayscale-0" /></a>
                         <a href="#about" class="block w-8 h-8"><img src="src/img/tailwindcss-color.svg" alt="Tailwincss" title="Tailwincss" class="w-full h-full grayscale opacity-80 transition duration-300 hover:opacity-100 hover:grayscale-0" /></a>
                     </div>
-                    <a href="#contact"><button class="px-4 py-2 bg-sky-500 font-bold text-white rounded-lg shadow-sm">Hubungi Saya</button></a>
+                    <a href="#contact"><button class="px-4 py-2 bg-primary font-bold text-white rounded-lg shadow-sm hover:bg-sky-600">Kontak Saya</button></a>
+                </div>
+                <div class="w-full relative overflow-hidden">
+                    <img src="src/img/hero.png" alt="Hero" title="Hero" class="z-10 relative" loading="lazy"/>
+                    <span class="block absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+                        <svg width="300" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#4ade80" d="M43.1,-78.2C53.4,-68.7,57.5,-52.2,63.2,-38C68.9,-23.7,76.1,-11.9,77.8,1C79.5,13.9,75.8,27.8,68.8,39.7C61.8,51.6,51.5,61.5,39.5,66.7C27.5,71.9,13.8,72.3,-1.2,74.4C-16.2,76.5,-32.4,80.3,-45.6,75.8C-58.8,71.3,-69,58.5,-71.8,44.5C-74.7,30.5,-70.2,15.2,-71.3,-0.7C-72.5,-16.5,-79.2,-33.1,-73.6,-42.3C-67.9,-51.5,-49.9,-53.3,-35.5,-60.4C-21.2,-67.6,-10.6,-80.1,2.9,-85.2C16.4,-90.2,32.8,-87.7,43.1,-78.2Z" transform="translate(100 100)" />
+                          </svg>
+                    </span>
                 </div>
             </div>
         </div>
