@@ -2,7 +2,15 @@
 module.exports = {
   content: ['./index.html'],
   theme: {
-    extend: {},
+    container:{
+      center: true,
+      padding: '16px',
+    },
+    extend: {
+      fontFamily: {
+        inter: 'Inter, sans-serif',
+      },
+    },
   },
   plugins: [],
 }
