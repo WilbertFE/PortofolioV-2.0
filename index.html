@@ -47,14 +47,14 @@
         <div class="container">
             <div class="flex flex-wrap items-center md:mx-4">
                 <div class="w-full mb-10 md:w-1/2 lg:w-3/5">
-                    <h3 class="mb-1 text-sm text-primary sm:text-base md:text-sm lg:text-lg">Halo 👋, Perkenalkan Nama Saya</h3>
-                    <h1 class="text-4xl text-dark font-black sm:text-6xl md:text-4xl lg:text-6xl">Wilbert Bernardi</h1>
-                    <h2 class="mb-2 text-slate-300 font-bold sm:text-xl md:text-base md:mb-6 lg:text-xl">Web Developer | Student</h2>
+                    <h3 class="mb-1 text-sm text-primary lg:text-lg">Halo 👋, Perkenalkan Nama Saya</h3>
+                    <h1 class="text-4xl text-dark font-black lg:text-6xl">Wilbert Bernardi</h1>
+                    <h2 class="mb-2 text-slate-300 font-bold md:mb-6 lg:text-xl">Web Developer | Student</h2>
                     <div class="mb-6 flex justify-between w-1/2">
-                        <a href="#about" class="block w-8 h-8 lg:w-10 lg:h-10"><img src="src/img/html5-color.svg" alt="HTML5" title="HTML5" class="w-full h-full grayscale opacity-80 transition duration-300 hover:opacity-100 hover:grayscale-0" /></a>
-                        <a href="#about" class="block w-8 h-8 lg:w-10 lg:h-10"><img src="src/img/css3-color.svg" alt="CSS3" title="CSS3" class="w-full h-full grayscale opacity-80 transition duration-300 hover:opacity-100 hover:grayscale-0" /></a>
-                        <a href="#about" class="block w-8 h-8 lg:w-10 lg:h-10"><img src="src/img/javascript-color.svg" alt="Javascript" title="Javascript" class="w-full h-full grayscale transition duration-300 hover:opacity-100 hover:grayscale-0" /></a>
-                        <a href="#about" class="block w-8 h-8 lg:w-10 lg:h-10"><img src="src/img/tailwindcss-color.svg" alt="Tailwincss" title="Tailwincss" class="w-full h-full grayscale opacity-80 transition duration-300 hover:opacity-100 hover:grayscale-0" /></a>
+                        <img src="src/img/html5-color.svg" alt="HTML5" title="HTML5" class="block w-8 h-8 lg:w-10 lg:h-10 grayscale opacity-80 transition duration-300 hover:opacity-100 hover:grayscale-0" />
+                        <img src="src/img/css3-color.svg" alt="CSS3" title="CSS3" class="block w-8 h-8 lg:w-10 lg:h-10 grayscale opacity-80 transition duration-300 hover:opacity-100 hover:grayscale-0" />
+                        <img src="src/img/javascript-color.svg" alt="Javascript" title="Javascript" class="block w-8 h-8 lg:w-10 lg:h-10 grayscale transition duration-300 hover:opacity-100 hover:grayscale-0" />
+                        <img src="src/img/tailwindcss-color.svg" alt="Tailwincss" title="Tailwincss" class="block w-8 h-8 lg:w-10 lg:h-10 grayscale opacity-80 transition duration-300 hover:opacity-100 hover:grayscale-0" />
                     </div>
                     <a href="#contact"><button class="px-4 py-2 bg-primary font-bold text-white rounded-lg shadow-sm hover:bg-sky-600 lg:text-xl lg:px-6 lg:py-4 lg:rounded-full">Kontak Saya</button></a>
                 </div>
@@ -74,21 +74,37 @@
     <!-- About Section Start -->
     <section id="about" class="pt-36 pb-32 bg-slate-200">
         <div class="container">
-            <div class="flex flex-wrap">
-                <h3 class="w-full text-primary text-center font-bold text-lg">about</h3>
-                <h1 class="w-full mb-10 text-slate-400  text-center font-black text-3xl">wilbertbernardi</h1>
-                <div class="w-full mb-10">
-                    <h1 class="mb-2 text-dark text-3xl font-bold">Perkenalan</h1>
-                    <p class="text-base font-medium text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum assumenda sequi expedita, omnis officia alias! Quibusdam omnis deserunt id architecto?</p>
+            <div class="flex flex-wrap mx-4 items-start">
+                <h3 class="w-full text-primary text-center font-bold tracking-wider xl:text-lg">about</h3>
+                <h1 class="w-full mb-10 text-slate-400  text-center font-black text-xl xl:text-2xl">wilbertbernardi</h1>
+                <div class="w-full mb-10 md:w-3/5 md:pr-10">
+                    <h1 class="mb-2 text-dark text-2xl font-bold sm:text-3xl xl:text-4xl">Perkenalan</h1>
+                    <p class="text-sm font-medium text-dark text-justify sm:text-base md:tracking-wider xl:text-lg">Halo, sekali lagi perkenalkan nama saya <span class="font-bold">Wilbert Bernardi</span>. Saya berumur 15 tahun dan seorang murid SMA di sekolah swasta. Saat ini saya sudah mampu memahami pemograman dasar seperti <span class="bg-[#E34F26] text-white rounded-lg px-2">HTML</span>, <span class="bg-[#1572B6] px-2 text-white rounded-lg">CSS</span>, <span class="bg-[#F7DF1E] px-2 text-white rounded-lg">Javascript</span>, <span class="bg-[#06B6D4] px-2 text-white rounded-lg">Tailwind</span>, <span class="bg-black text-white px-2 rounded-lg">AOS</span>, <span class="bg-[#F05032] px-2 rounded-lg text-white">GIT</span>.</p>
                 </div>
-                <div class="w-full flex flex-wrap">
-                    <h1 class="mb-2 w-full text-dark text-3xl font-bold">Mari Berteman</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, corporis?</p>
+                <div class="w-full md:w-2/5">
+                    <h1 class="mb-2 text-dark text-2xl font-bold sm:text-3xl xl:text-4xl">Mari Berteman</h1>
+                    <p class="mb-4 text-sm font-medium text-dark text-justify sm:text-base sm:mb-6 md:tracking-wider xl:text-lg">Di bawah adalah beberapa navigasi menuju sosial media saya, mari kita saling mendukung sesama web developer <span class="font-black">Indonesia</span>.</p>
+                    <div class="flex w-[150px] justify-between sm:w-[200px]">
+                        <a href="#"><img src="src/img/sosmed/x.svg" alt="youtube" title="" class="w-6 sm:w-8"></a>
+                        <a href="#"><img src="src/img/sosmed/instagram.svg" alt="instagram" title="" class="w-6 sm:w-8"></a>
+                        <a href="#"><img src="src/img/sosmed/linkedin.svg" alt="linkedin" title="" class="w-6 sm:w-8"></a>
+                        <a href="#"><img src="src/img/sosmed/github.svg" alt="github.svg" title="" class="w-6 sm:w-8"></a>
+                    </div>
                 </div>
-            </div>
+            </div> 
         </div>
     </section>
     <!-- About Section End -->
+
+    <!-- Portofolio Section Start -->
+    <section id="portofolio" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                
+            </div>
+        </div>
+    </section>
+    <!-- Portofolio Section End -->
 
 
 <script src="dist/script.js"></script>
