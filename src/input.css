@@ -23,5 +23,5 @@
 }
 
 .navbar {
-    @apply w-[250px] p-4 bg-slate-100 hidden absolute top-20 right-2 shadow-lg rounded-lg rounded-tr-none z-20 after:content-['a'] after:block after:absolute after:right-0 after:-top-[18px] after:w-[0px] after:h-[0px] after:text-[0px] after:border-slate-100 after:border-b-[20px] after:border-l-[15px] after:border-r-[15px] after:border-r-transparent after:border-l-transparent;
+    @apply w-[250px] p-4 bg-slate-100 hidden absolute top-20 right-2 shadow-lg rounded-lg rounded-tr-none z-20 after:content-['a'] after:block after:absolute after:-right-[1.5px] after:-top-[18px] after:w-[0px] after:h-[0px] after:text-[0px] after:border-slate-100 after:border-b-[20px] after:border-l-[15px] after:border-r-[15px] after:border-r-transparent after:border-l-transparent;
 }
