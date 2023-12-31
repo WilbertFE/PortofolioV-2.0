@@ -25,3 +25,33 @@
 .navbar {
     @apply w-[250px] p-4 bg-slate-100 hidden absolute top-20 right-2 shadow-lg rounded-lg rounded-tr-none z-20 after:content-['a'] after:block after:absolute after:-right-[1.5px] after:-top-[18px] after:w-[0px] after:h-[0px] after:text-[0px] after:border-slate-100 after:border-b-[20px] after:border-l-[15px] after:border-r-[15px] after:border-r-transparent after:border-l-transparent;
 }
+
+/* pembuatan components */
+@layer components {
+    /* global components start */
+    .button-sky {
+        @apply bg-primary px-4 py-2 font-medium text-white rounded-md shadow-sm hover:bg-sky-600;
+    }
+    .judul {
+        @apply text-primary text-center font-bold tracking-wider xl:text-lg;
+    }
+    .subjudul {
+        @apply mb-10 text-slate-400  text-center font-black text-2xl;
+    }
+    /* global components end */
+
+    /* portofolio components start */
+    .card {
+        @apply w-full max-w-[320px] mx-auto mb-10 flex flex-wrap rounded-lg shadow-lg overflow-hidden md:w-[50%] md:max-w-[320px] lg:w-1/3 lg:max-w-[300px] xl:max-w-[350px];
+    }
+    .card-image {
+        @apply block w-full h-[180px] object-cover object-center;
+    }
+    /* portofolio components end */
+
+    /* contact components start */
+    .input-container {
+        @apply w-full flex flex-wrap mb-4 md:mx-auto md:max-w-[500px] xl:max-w-[620px] 2xl:max-w-[800px];
+    }
+    /* contact components end */
+}
