@@ -768,6 +768,11 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -1328,6 +1333,10 @@ video {
     width: 200px;
   }
 
+  .sm\:w-1\/2 {
+    width: 50%;
+  }
+
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -1416,6 +1425,11 @@ video {
 
   .md\:bg-transparent {
     background-color: transparent;
+  }
+
+  .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .md\:pr-10 {
