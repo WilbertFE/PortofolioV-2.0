@@ -42,7 +42,7 @@
 
     /* portofolio components start */
     .card {
-        @apply w-full mb-10 shadow-lg rounded-lg overflow-hidden;
+        @apply w-full max-w-sm mx-auto mb-10 shadow-lg rounded-lg overflow-hidden;
     }
     /* portofolio components end */
 

@@ -636,8 +636,11 @@ video {
 /* portofolio components start */
 
 .card {
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 2.5rem;
   width: 100%;
+  max-width: 24rem;
   overflow: hidden;
   border-radius: 0.5rem;
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -789,10 +792,6 @@ video {
   height: 100%;
 }
 
-.min-h-\[1000px\] {
-  min-height: 1000px;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -827,10 +826,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-auto {
-  width: auto;
 }
 
 .flex-1 {
@@ -970,11 +965,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-green-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -1273,6 +1263,11 @@ video {
     font-size: 1rem;
     line-height: 1.5rem;
   }
+
+  .sm\:text-red-300 {
+    --tw-text-opacity: 1;
+    color: rgb(252 165 165 / var(--tw-text-opacity));
+  }
 }
 
 @media (min-width: 768px) {
@@ -1367,6 +1362,11 @@ video {
     letter-spacing: 0.05em;
   }
 
+  .md\:text-green-300 {
+    --tw-text-opacity: 1;
+    color: rgb(134 239 172 / var(--tw-text-opacity));
+  }
+
   .md\:shadow-none {
     --tw-shadow: 0 0 #0000;
     --tw-shadow-colored: 0 0 #0000;
@@ -1405,6 +1405,11 @@ video {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .lg\:text-red-300 {
+    --tw-text-opacity: 1;
+    color: rgb(252 165 165 / var(--tw-text-opacity));
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1416,5 +1421,10 @@ video {
   .xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .xl\:text-purple-300 {
+    --tw-text-opacity: 1;
+    color: rgb(216 180 254 / var(--tw-text-opacity));
   }
 }
