@@ -1436,3 +1436,23 @@ video {
     color: rgb(216 180 254 / var(--tw-text-opacity));
   }
 }
+
+@media (min-width: 1536px) {
+  .\32xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .\32xl\:w-max {
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  .\32xl\:justify-self-center {
+    justify-self: center;
+  }
+
+  .\32xl\:text-center {
+    text-align: center;
+  }
+}

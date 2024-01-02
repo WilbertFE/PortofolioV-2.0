@@ -53,7 +53,7 @@
     <section id="home" class="pt-36 pb-32">
         <div class="container">
             <div class="flex flex-wrap items-center md:mx-4">
-                <div class="w-full mb-10 md:w-1/2 lg:w-3/5">
+                <div class="w-full mb-10 md:w-1/2 lg:w-3/5 2xl:w-max 2xl:mx-auto">
                     <h3 class="mb-1 text-sm text-primary lg:text-lg">Halo 👋, Perkenalkan Nama Saya</h3>
                     <h1 class="text-4xl text-dark font-black lg:text-6xl" data-aos="fade-right" data-aos-duration="1000">Wilbert Bernardi</h1>
                     <h2 class="mb-2 text-slate-300 font-bold md:mb-6 lg:text-xl">Web Developer | Student</h2>
@@ -111,7 +111,7 @@
             <h1 class="subjudul">Projek Terbaru</h1>
 
             <div class="flex flex-wrap mx-4">
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-duration="500">
                     <div class="h-[200px]"><img src="src/img/portofolio/calculator.png" alt="calculator" class="block w-full h-full object-cover object-center" loading="lazy" /></div>
                     <div class="flex flex-wrap items-center">
                         <div class="w-[150px] p-4">
@@ -138,7 +138,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="250">
                     <div class="h-[200px]"><img src="src/img/portofolio/todolist.png" alt="to-do-list" class="block w-full h-full object-cover object-center" loading="lazy" /></div>
                     <div class="flex flex-wrap items-center">
                         <div class="w-[150px] p-4">
@@ -165,7 +165,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500">
                     <div class="h-[200px]"><img src="src/img/portofolio/weatherapp.png" alt="weatherapp" class="block w-full h-full object-cover object-center" loading="lazy" /></div>
                     <div class="flex flex-wrap items-center">
                         <div class="w-[150px] p-4">
@@ -192,7 +192,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in" data-aos-duration="500">
                     <div class="h-[200px]"><img src="src/img/portofolio/jaaz.png" alt="E-commerce" class="block w-full h-full object-cover object-center" loading="lazy" /></div>
                     <div class="flex flex-wrap items-center">
                         <div class="w-[150px] p-4">
@@ -298,7 +298,9 @@
     
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-    AOS.init();
+    AOS.init({
+        once: true,
+    });
 </script>
 
 <script src="dist/script.js"></script>
