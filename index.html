@@ -26,22 +26,32 @@
     <header class="w-full absolute top-0 left-0 bg-transparent">
         <div class="container">
             <div class="flex relative py-4 items-center justify-between md:justify-normal"> 
-                <div class="flex items-center md:w-1/3">
+                <div class="flex items-center md:w-1/3 lg:w-1/3">
                     <a href="https://github.com/WilbertFE" target="_blank" class="block w-[40px] h-[40px] rounded-full overflow-hidden mr-2 md:w-[35px] md:h-[35px]"><img src="src/img/profile.png" alt="profile" title="Github Profile"></a>
-                    <h1 class="text-base text-dark font-bold md:text-sm sm:text-red-300 md:text-green-300 lg:text-red-300 xl:text-purple-300">wilbertfe</h1>
+                    <h1 class="text-base text-dark font-bold md:text-sm dark:text-slate-500">wilbertfe</h1>
                 </div>
-                <div class="flex md:w-2/3">
+                <div class="flex md:flex-1">
                     <button class="block md:hidden" id="toggle">
-                        <span class="w-[30px] h-[2px] m-2 block bg-black rounded-sm transition duration-300 origin-top-left"></span>
-                        <span class="w-[30px] h-[2px] m-2 block bg-black rounded-sm transition duration-300"></span>
-                        <span class="w-[30px] h-[2px] m-2 block bg-black rounded-sm transition duration-300 origin-bottom-left"></span>
+                        <span class="w-[30px] h-[2px] m-2 block bg-black rounded-sm transition duration-300 dark:bg-white origin-top-left"></span>
+                        <span class="w-[30px] h-[2px] m-2 block bg-black rounded-sm transition duration-300 dark:bg-white"></span>
+                        <span class="w-[30px] h-[2px] m-2 block bg-black rounded-sm transition duration-300 dark:bg-white origin-bottom-left"></span>
                     </button>
-                    <nav class="navbar md:flex md:w-full md:justify-between md:static md:bg-transparent md:shadow-none md:rounded-none">
-                        <a href="#home"><h1 class="text-lg m-4 px-4 py-2 hover:bg-dark hover:text-white font-medium md:text-sm md:m-0">Home</h1></a>
-                        <a href="#about"><h1 class="text-lg m-4 px-4 py-2 hover:bg-dark hover:text-white font-medium md:text-sm md:m-0">About</h1></a>
-                        <a href="#portofolio"><h1 class="text-lg m-4 px-4 py-2 hover:bg-dark hover:text-white font-medium md:text-sm md:m-0">Portofolio</h1></a>
-                        <a href="#contact"><h1 class="text-lg m-4 px-4 py-2 hover:bg-dark hover:text-white font-medium md:text-sm md:m-0">Contact</h1></a>
-                        <a href="#github"><h1 class="text-lg m-4 px-4 py-2 hover:bg-dark hover:text-white font-medium md:text-sm md:m-0">Github</h1></a>
+                    <nav class="navbar md:w-full md:flex md:justify-between md:static md:bg-transparent md:shadow-none md:rounded-none">
+                        <a href="#home"><h1 class="text-lg text-dark m-4 px-4 py-2 hover:bg-dark hover:text-white font-medium md:text-xs md:m-0 lg:text-sm dark:text-abu dark:hover:bg-abu dark:hover:text-black">Home</h1></a>
+                        <a href="#about"><h1 class="text-lg text-dark m-4 px-4 py-2 hover:bg-dark hover:text-white font-medium md:text-xs md:m-0 lg:text-sm dark:text-abu dark:hover:bg-abu dark:hover:text-black">About</h1></a>
+                        <a href="#portofolio"><h1 class="text-lg text-dark m-4 px-4 py-2 hover:bg-dark hover:text-white font-medium md:text-xs md:m-0 lg:text-sm dark:text-abu dark:hover:bg-abu dark:hover:text-black">Portofolio</h1></a>
+                        <a href="#contact"><h1 class="text-lg text-dark m-4 px-4 py-2 hover:bg-dark hover:text-white font-medium md:text-xs md:m-0 lg:text-sm dark:text-abu dark:hover:bg-abu dark:hover:text-black">Contact</h1></a>
+                        <!-- <a href="#github"><h1 class="text-lg text-dark m-4 px-4 py-2 hover:bg-dark hover:text-white font-medium md:text-xs md:m-0 lg:text-sm dark:text-abu dark:hover:bg-abu">Github</h1></a> -->
+                        <div class="flex items-center">
+                            <span class="mr-2 text-xs text-dark dark:text-abu">Light</span>
+                            <input type="checkbox" id="dark-toggle" class="hidden" />
+                            <label for="dark-toggle">
+                                <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
+                                    <div class="toggle-circle h-4 w-4 rounded-full bg-abu transition duration-300 ease-in-out"></div>
+                                </div>
+                            </label>
+                            <span class="ml-2 text-xs text-dark dark:text-abu">Dark</span>
+                        </div>
                     </nav>
                 </div>
             </div>
@@ -50,12 +60,12 @@
     <!-- Header Section End-->
 
     <!--Hero Section Start-->
-    <section id="home" class="pt-36 pb-32">
+    <section id="home" class="pt-36 pb-32 dark:bg-dark">
         <div class="container">
             <div class="flex flex-wrap items-center md:mx-4">
                 <div class="w-full mb-10 md:w-1/2 lg:w-3/5 2xl:w-max 2xl:mx-auto">
                     <h3 class="mb-1 text-sm text-primary lg:text-lg">Halo 👋, Perkenalkan Nama Saya</h3>
-                    <h1 class="text-4xl text-dark font-black lg:text-6xl" data-aos="fade-right" data-aos-duration="1000">Wilbert Bernardi</h1>
+                    <h1 class="text-4xl text-dark font-black lg:text-6xl dark:text-abu" data-aos="fade-right" data-aos-duration="1000">Wilbert Bernardi</h1>
                     <h2 class="mb-2 text-slate-300 font-bold md:mb-6 lg:text-xl">Web Developer | Student</h2>
                     <div class="mb-6 flex justify-between w-1/2">
                         <img src="src/img/html5-color.svg" alt="HTML5" title="HTML5" class="block w-8 h-8 lg:w-10 lg:h-10 grayscale opacity-80 transition duration-300 hover:opacity-100 hover:grayscale-0" data-aos="fade-right" data-aos-delay="500"/>
@@ -111,7 +121,7 @@
             <h1 class="subjudul">Projek Terbaru</h1>
 
             <div class="flex flex-wrap mx-4">
-                <div class="card" data-aos="zoom-in" data-aos-duration="500">
+                <div class="card">
                     <div class="h-[200px]"><img src="src/img/portofolio/calculator.png" alt="calculator" class="block w-full h-full object-cover object-center" loading="lazy" /></div>
                     <div class="flex flex-wrap items-center">
                         <div class="w-[150px] p-4">
@@ -138,7 +148,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="250">
+                <div class="card">
                     <div class="h-[200px]"><img src="src/img/portofolio/todolist.png" alt="to-do-list" class="block w-full h-full object-cover object-center" loading="lazy" /></div>
                     <div class="flex flex-wrap items-center">
                         <div class="w-[150px] p-4">
@@ -165,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500">
+                <div class="card">
                     <div class="h-[200px]"><img src="src/img/portofolio/weatherapp.png" alt="weatherapp" class="block w-full h-full object-cover object-center" loading="lazy" /></div>
                     <div class="flex flex-wrap items-center">
                         <div class="w-[150px] p-4">
@@ -192,7 +202,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card" data-aos="zoom-in" data-aos-duration="500">
+                <div class="card">
                     <div class="h-[200px]"><img src="src/img/portofolio/jaaz.png" alt="E-commerce" class="block w-full h-full object-cover object-center" loading="lazy" /></div>
                     <div class="flex flex-wrap items-center">
                         <div class="w-[150px] p-4">

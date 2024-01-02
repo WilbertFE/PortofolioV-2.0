@@ -1,7 +1,7 @@
 
 // toggle Button
+const toggle = document.querySelector('#toggle');
 toggle.addEventListener('click', function(){
-    const toggle = document.querySelector('#toggle');
     toggle.classList.toggle('button-active');
 });
 
@@ -22,3 +22,23 @@ window.onclick = function (e){
         toggle.classList.remove('button-active');
     }
 }
+
+
+// darkmode
+const darkToggle = document.querySelector('#dark-toggle');
+const html = document.querySelector('html');
+
+if(localStorage.mode === 'dark'){
+    darkToggle.checked = true;
+    html.classList.add('dark');
+}
+
+darkToggle.addEventListener('click', function(){
+    if(darkToggle.checked){
+        html.classList.add('dark');
+        localStorage.mode = 'dark';
+    } else {
+        html.classList.remove('dark');
+        localStorage.mode = 'light';
+    }
+});
