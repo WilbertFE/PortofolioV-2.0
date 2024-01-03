@@ -15,6 +15,7 @@ module.exports = {
         primary: '#0ea5e9',
         secondary: '#4ade80',
         abu: '#f1f5f9',
+        abu2: '#e2e8f0',
         dark: '#0f172a',
         html: '#E34F26',
         css: '#1572B6',
