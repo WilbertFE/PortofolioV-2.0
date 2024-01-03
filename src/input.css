@@ -49,7 +49,7 @@
 
     /* portofolio components start */
     .card {
-        @apply w-full max-w-sm mx-auto mb-10 shadow-lg rounded-lg overflow-hidden;
+        @apply w-full max-w-sm mx-auto mb-10 shadow-lg rounded-lg overflow-hidden dark:shadow-slate-300 dark:shadow-sm;
     }
     /* portofolio components end */
 
@@ -59,3 +59,17 @@
     }
     /* contact components end */
 }
+
+
+/* .loader {
+    animation: an1 1s ease infinite;
+}
+
+@keyframes an1 {
+    0% {
+        transform: rotate(0turn);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+} */

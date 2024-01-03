@@ -12,7 +12,8 @@
     <!-- Akhir Link Font -->
 
     <!-- Awal Link CSS -->
-    <link rel="stylesheet" href="dist/output.css">
+    <!-- <link rel="stylesheet" href="dist/output.css"> -->
+    <link rel="stylesheet" href="dist/final.css">
     <!-- Akhir Link CSS -->
 
     <!-- Awal CDN AOS -->
@@ -121,8 +122,8 @@
             <h1 class="subjudul">Projek Terbaru</h1>
 
             <div class="flex flex-wrap mx-4">
-                <div class="card dark:bg-slate-800">
-                    <div class="h-[200px]"><img src="src/img/portofolio/calculator.png" alt="calculator" class="block w-full h-full object-cover object-center" loading="lazy" /></div>
+                <div class="card dark:bg-slate-600">
+                    <div class="h-[200px]"><img src="src/img/portofolio/calculator.png" alt="calculator" class="block w-full h-full object-cover object-center border-b border-slate-600" loading="lazy" /></div>
                     <div class="flex flex-wrap items-center">
                         <div class="w-[150px] p-4">
                             <h1 class="text-xl text-dark font-bold truncate dark:text-abu">Calculator</h1>
@@ -148,8 +149,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="card dark:bg-slate-800">
-                    <div class="h-[200px]"><img src="src/img/portofolio/todolist.png" alt="to-do-list" class="block w-full h-full object-cover object-center" loading="lazy" /></div>
+                <div class="card dark:bg-slate-600">
+                    <div class="h-[200px]"><img src="src/img/portofolio/todolist.png" alt="to-do-list" class="block w-full h-full object-cover object-center border-b border-slate-600" loading="lazy" /></div>
                     <div class="flex flex-wrap items-center">
                         <div class="w-[150px] p-4">
                             <h1 class="text-xl text-dark font-bold truncate dark:text-abu">To-do-list</h1>
@@ -175,8 +176,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="card dark:bg-slate-800">
-                    <div class="h-[200px]"><img src="src/img/portofolio/weatherapp.png" alt="weatherapp" class="block w-full h-full object-cover object-center" loading="lazy" /></div>
+                <div class="card dark:bg-slate-600">
+                    <div class="h-[200px]"><img src="src/img/portofolio/weatherapp.png" alt="weatherapp" class="block w-full h-full object-cover object-center border-b border-slate-600" loading="lazy" /></div>
                     <div class="flex flex-wrap items-center">
                         <div class="w-[150px] p-4">
                             <h1 class="text-xl text-dark font-bold truncate dark:text-abu">WeatherApp</h1>
@@ -202,8 +203,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="card dark:bg-slate-800">
-                    <div class="h-[200px]"><img src="src/img/portofolio/jaaz.png" alt="E-commerce" class="block w-full h-full object-cover object-center" loading="lazy" /></div>
+                <div class="card dark:bg-slate-600">
+                    <div class="h-[200px]"><img src="src/img/portofolio/jaaz.png" alt="E-commerce" class="block w-full h-full object-cover object-center border-b border-slate-600" loading="lazy" /></div>
                     <div class="flex flex-wrap items-center">
                         <div class="w-[150px] p-4">
                             <h1 class="text-xl text-dark font-bold truncate dark:text-abu">E-commerce</h1>
@@ -239,24 +240,27 @@
         <div class="container">
             <h3 class="judul">contact</h3>
             <h1 class="subjudul">Hubungi Saya</h1>
+            <div id="success-alert" class="bg-green-300 mx-4 mb-6 p-4 bg-opacity-70 rounded-md dark:bg-opacity-90 hidden md:max-w-[500px] xl:max-w-[620px] 2xl:max-w-[800px] md:mx-auto">
+                <h1 class="text-green-950 font-medium"><strong>Terimakasih!</strong> Pesan anda sudah terkirim.</h1>
+            </div>
             <div class="flex flex-wrap mx-4">
-            <form class="block w-full" name="portofolio-contact-form">
-                <div class="input-container">
-                    <label for="name" class=" w-full font-bold text-dark text-xl mb-2 dark:text-abu">Nama</label>
-                    <input type="text" id="name" class="w-full bg-white px-2 border border-black text-lg" name="nama"/>
-                </div>
-                <div class="input-container">
-                    <label for="email" class="w-full font-bold text-dark text-xl mb-2 dark:text-abu">Email</label>
-                    <input type="email" id="email" class="w-full bg-white px-2 border border-black text-lg" name="email"/>
-                </div>
-                <div class="input-container">
-                    <label for="comment" class=" w-full font-bold text-dark text-xl mb-2 dark:text-abu">Pesan</label>
-                    <textarea type="text" id="comment" class="w-full bg-white px-2 border border-black text-lg h-[100px]" name="pesan"></textarea>
-                </div>
-                <div class="input-container">
-                    <button type="submit" class="button-sky w-full tracking-wide font-bold">Kirim</button>
-                </div>
-            </form>
+                <form class="block w-full" name="portofolio-contact-form">
+                    <div class="input-container">
+                        <label for="name" class=" w-full font-bold text-dark text-xl mb-2 dark:text-abu">Nama</label>
+                        <input type="text" id="name" class="w-full bg-white px-2 border border-black text-lg" name="nama"/>
+                    </div>
+                    <div class="input-container">
+                        <label for="email" class="w-full font-bold text-dark text-xl mb-2 dark:text-abu">Email</label>
+                        <input type="email" id="email" class="w-full bg-white px-2 border border-black text-lg" name="email"/>
+                    </div>
+                    <div class="input-container">
+                        <label for="comment" class=" w-full font-bold text-dark text-xl mb-2 dark:text-abu">Pesan</label>
+                        <textarea type="text" id="comment" class="w-full bg-white px-2 border border-black text-lg h-[100px]" name="pesan"></textarea>
+                    </div>
+                    <div class="input-container">
+                        <button type="submit" class="button-sky flex justify-center w-full tracking-wide font-bold mb-10">Kirim</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
@@ -319,21 +323,26 @@
 <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbxZ7Wcw-8YeF6z7QL24bTjz5-U6vGqfVc30447cqQ58nl7cqrlyeznjF4GZ7EbVRgIq/exec'
     const form = document.forms['portofolio-contact-form'];
-  
+    const successAlert = document.querySelector('#success-alert');
+    const btn = document.querySelector('.input-container button');
+
     form.addEventListener('submit', e => {
       e.preventDefault();
+      btn.innerHTML = `<div type="submit" class="animate-spin pointer-events-none w-[30px] h-[30px] rounded-full border-[3px] border-solid border-transparent border-t-white"></div>`;
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
         .then(response => {
             console.log('Success!', response);
             // reset form
             form.reset();
             // alert
-            alert('pesan anda sudah dikirim!');
+            successAlert.classList.remove('hidden'); 
         })
         .catch(error => {
             console.error('Error!', error.message);
-            form.reset();
             alert('ada kesalahan');
+        })
+        .finally (() => {
+            btn.innerHTML = 'Kirim';
         })
     })
   </script>
